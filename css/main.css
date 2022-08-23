@@ -1,0 +1,177 @@
+body{
+    background-color:;
+}
+
+
+header{
+    background-image: url("../img/background.png");
+    background-color: #cccccc;
+    height: 400px;
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: 100%;
+    }
+
+nav{
+    background-color: ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#logo{
+
+    font-family: 'Lora', serif;
+    color: #bbc085;
+    font-weight: bold;
+}
+nav p, ul li{
+    text-transform: capitalize;
+    list-style: none;
+    line-height: 2;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+a, #right-nav li a{
+    text-decoration: none;
+    color: #9b9b9b;
+}
+
+nav h1{
+    font-size: 2em;
+    padding: 1.5em;
+    font-family: 'Lora', serif;
+}
+
+h2, h3 .third-width p, h4 main{
+    font-family: 'Lora', serif;
+    text-transform: capitalize;
+   
+}
+
+.halv-width p{
+    line-height: 2;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+#about{
+    margin: 2em 5em 0 2em;
+}
+
+.halv-width{
+    padding: 0 0 2em 0;
+    /* width: 70%; */
+    margin-bottom: 3em;
+}
+
+
+#work{
+    background-color: #f9ceb7;
+    ;
+}
+
+
+.third-width{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 2.5em;
+  padding: 3em 0;
+}
+#contact .halv-width #img{
+    width: 100%;
+    border: #fff .2em solid;
+}
+#contact{
+    background-color: #cccccc;
+    padding-top: 5em;
+    margin-top: -3em;
+}
+
+#bottom-contact ul {
+display: flex;
+}
+
+#bottom-contact ul{margin-left: -4em;
+}
+
+#bottom-contact ul a{
+   margin:.8em ;
+}
+
+
+@media (min-width :768px) {
+
+header {
+    height: 717px;
+}
+h1{
+    font-size: 5em;
+}
+    nav{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    
+    }
+#right-nav{
+    display: flex;
+}
+
+#right-nav li a{
+    display: flex;
+    margin-right: 2em;
+} 
+
+  main #about ,#work, #contact{
+        display:flex;
+    }
+
+    .halv-width{
+        width: ;
+        padding-right: 3em;
+    }
+
+    .halv-width p{
+        width:80%;
+        padding-top: 3em;
+    }
+
+    #tough{
+        margin-top: 4em
+    }
+
+    .third-width p{
+        text-align: center;
+    }
+
+    #contact{
+        width:;
+        justify-content: center;
+        padding: 5em;
+        margin: 0 auto;
+        
+    }
+
+    #top-contact p{
+        margin-top: -4em;
+    }
+
+    #bottom-contact{
+      margin-top: 5em;
+    }
+
+   
+
+    /* #right-info{
+        display: block;
+    }
+
+    #bottom-contact{
+        display: block;
+        background-color: aqua;
+    } */
+
+}
+    
